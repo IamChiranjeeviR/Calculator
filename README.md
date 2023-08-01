@@ -1,5 +1,7 @@
-# Calculator using HTML CSS AND JS
-----------------------------------------------------------------------
-See output on : https://iamchiranjeevir.github.io/Calculator/
-------------------------------------------------------------------------------
-Thsi is a Calculator done using HTML CSS AND JavaScript
+#My Projects
+-
+Using HTML CSS and JAVASCRIPT
+-
+These are my simple Web Projects which are Static and only the front-end Part... 
+Hope you like my projects :)
+
