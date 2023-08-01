@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Calender
+  </title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+  <body>
+    <div class="container">
+      <h1>Calender</h1>
+      <div class="calender">
+        <div class="left">
+          <p id="date"></p>
+          <p id="day"></p>
+        </div>
+        <div class="right">
+          <p class="Month"></p>
+          <p class="Year"></p>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    let date = document.getElementById("date");
+    let day = document.getElementById("day");
+    let month = document.querySelector(".Month");
+    let year = document.querySelector(".Year"); 
+    
+    let today = new Date();
+    let weekDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    let Months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    
+    date.innerHTML = (today.getDate() < 10 ? "0" : " ") + today.getDate();
+    day.innerHTML = weekDays[today.getDay()];
+    month.innerHTML = Months[today.getMonth()];
+    year.innerHTML = today.getFullYear();
+    
+    </script>
+  </body>
+</html>
