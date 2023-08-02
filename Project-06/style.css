@@ -43,7 +43,7 @@ body{
   cursor: pointer;
 }
 .container button{
-  width: 45%;
+  width: 50%;
   border: 0;
   outline: 0;
   display: flex;
